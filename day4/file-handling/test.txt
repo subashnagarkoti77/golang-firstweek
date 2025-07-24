@@ -1,0 +1,4 @@
+Go, also known as Golang, is a modern programming language developed by Google. It is designed to be simple, efficient,
+and easy to use. Go is great for building fast and reliable software, especially for web servers, cloud services, and 
+networking tools. It features clean syntax, strong performance, and built-in support for concurrent programming, making
+it popular among developers.
