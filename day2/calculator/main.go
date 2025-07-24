@@ -14,18 +14,6 @@ func main() {
 	fmt.Println("Enter Second number: ")
 	fmt.Scanln(&num2)
 
-	// if operator == "+" {
-	// 	fmt.Println("The addition of two numbers is :", num1+num2)
-	// } else if operator == "-" {
-	// 	fmt.Println("The Substraction of two numbers is :", num1-num2)
-	// } else if operator == "*" {
-	// 	fmt.Println("The Multiplication of two numbers is :", num1*num2)
-	// } else if operator == "/" {
-	// 	fmt.Println("The Division of two numbers is :", num1/num2)
-	// } else {
-	// 	fmt.Println("invalid operator")
-	// }
-
 	switch operator {
 	case "+":
 		fmt.Println("The addition of two numbers is :", num1+num2)
