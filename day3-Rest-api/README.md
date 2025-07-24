@@ -12,5 +12,6 @@ Server is running at http://localhost:8080"
 `curl localhost:8080/time`: Returns the current server time in JSON format.
 
 ```bash
-go run /day3/hello+time-api/main.go
+cd day3/hello+time-api
+go run main.go
 
