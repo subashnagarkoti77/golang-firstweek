@@ -11,4 +11,5 @@
 ## How to Run
 
 ```bash
-go run day2/directory/main.go
+cd day2/directory-name
+go run main.go
