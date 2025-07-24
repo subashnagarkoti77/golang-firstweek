@@ -10,5 +10,5 @@ This folder contains Go programs that cover:
 ## How to Run
 
 ```bash
-
-go run day1/directory-name/main.go
+cd day1/directory-name
+go run main.go
