@@ -21,4 +21,5 @@ This is a simple Go program that reads a `.txt` file, counts the number of words
 ##  How to Run
 
 ```bash
-go run day4/file-handling/main.go
+cd day4/file-handling/
+go run main.go
