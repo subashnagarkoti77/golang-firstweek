@@ -28,7 +28,7 @@ Server is running at http://localhost:8080"
 
 -- curl -X POST http://localhost:8080/set \
   -H "Content-Type: application/json" \
-  -d '{"key":"username", "value":"subash"}'
+  -d '{"key":"yourkey", "value":"yourvalue"}'
 
--- curl "http://localhost:8080/get?key=username" 
+-- curl "http://localhost:8080/get?key=yourkey" 
 
