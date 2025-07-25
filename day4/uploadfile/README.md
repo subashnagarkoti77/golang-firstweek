@@ -1,4 +1,4 @@
-#  Go File Upload and Word Count API
+#  Go File Upload API
 
 This simple Go web server allows users to upload a text file via an HTTP POST request. It saves the uploaded file to disk.
 
