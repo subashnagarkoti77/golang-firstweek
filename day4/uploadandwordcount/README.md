@@ -21,3 +21,14 @@ Make sure you have Go installed. Then:
 ```bash
 
 go run main.go
+
+```
+
+### After the program succesfully run it will show message as:
+Server is running at http://localhost:8080"
+
+----Now, In new terminal----
+
+curl -F "file=@test.txt" http://localhost:8080/upload
+
+
