@@ -13,8 +13,11 @@ This simple Go web server allows users to upload a text file via an HTTP POST re
 
 ---
 
+###  How to Run
+
+Make sure you have Go installed. Then:
 
 
 ```bash
-cd day4/uploadfile
+
 go run main.go

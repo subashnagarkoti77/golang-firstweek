@@ -7,8 +7,10 @@ This folder contains Go programs that cover:
 - Loops (`for`i)
 - Functions 
 
-## How to Run
+###  How to Run
+
+Make sure you have Go installed. Then:
 
 ```bash
-cd day1/directory-name
+
 go run main.go

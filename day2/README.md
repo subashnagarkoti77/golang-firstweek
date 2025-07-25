@@ -8,8 +8,10 @@
 - Calculator CLI
 	- Using `fmt.Scanln()` for user input
 
-## How to Run
+###  How to Run
+
+Make sure you have Go installed. Then:
 
 ```bash
-cd day2/directory-name
+
 go run main.go
