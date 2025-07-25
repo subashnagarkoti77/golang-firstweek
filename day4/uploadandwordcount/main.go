@@ -9,10 +9,9 @@ import (
 	"strings"
 )
 
-// 27 - Get uploaded file from form
-// 32 - This runs at the end of the function automatically.Use dst to write data here.
-// When function ends, dst.Close() is called automatically
-// 34 - save uplaoded file to disk
+// 26 - Get uploaded file from form
+// Defer is used to ensure the work completed file is closed when done
+// 42-Copy the contents of the uploaded file to the destination file
 func uploadHandler(w http.ResponseWriter, r *http.Request) {
 
 	if r.Method != "POST" {
